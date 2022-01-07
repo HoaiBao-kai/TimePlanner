@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingTop="15dp"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:backgroundTint="#CAA78C"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <TextView
+            android:layout_width="197dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="80dp"
+            android:layout_weight="1"
+            android:text="To-Do List"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="186dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/danhmuc" />
+    </LinearLayout>
+</LinearLayout>

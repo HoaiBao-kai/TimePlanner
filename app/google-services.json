@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "492903125778",
+    "firebase_url": "https://n15-timeplanner-default-rtdb.firebaseio.com",
+    "project_id": "n15-timeplanner",
+    "storage_bucket": "n15-timeplanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492903125778:android:70e3c4bb0cd74d255259cb",
+        "android_client_info": {
+          "package_name": "com.example.n15_timeplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492903125778-hcauii0nrjtqcs040r0g5g79i6puk1cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.n15_timeplanner",
+            "certificate_hash": "5babfedc23bc3a06b49f2abdd0b497dc20a5714f"
+          }
+        },
+        {
+          "client_id": "492903125778-ic1ib002apih9e7gjbhvvliiu5j1su0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXSRncsLNUqqThMMiOIGfKL2hy3vmJug0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492903125778-ic1ib002apih9e7gjbhvvliiu5j1su0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

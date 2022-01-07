@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_miscellaneous"
+
+    android:id="@+id/layoutMiscellaneous">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center"
+        android:id="@+id/miscellaneous"
+        android:fontFamily="@font/arsenal"
+        android:text="Miscellaneous"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutNoteColor"
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:id="@+id/notecolor"
+                android:background="@drawable/bg_note"/>
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:id="@+id/imgcolor0"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_done_24"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:id="@+id/notecolor1"
+                android:background="@drawable/bg_note1"/>
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/imgcolor1"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:id="@+id/notecolor2"
+                android:background="@drawable/bg_note2"/>
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/imgcolor2"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:id="@+id/notecolor3"
+                android:background="@drawable/bg_note3"/>
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/imgcolor3"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <View
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:id="@+id/notecolor4"
+                android:background="@drawable/bg_note4"/>
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:padding="@dimen/_10sdp"
+                android:id="@+id/imgcolor4"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arsenal"
+            android:includeFontPadding="false"
+            android:text="pick_color"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"/>
+    </LinearLayout>
+
+</LinearLayout>

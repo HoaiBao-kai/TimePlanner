@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".FacebookLoginActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:fontFamily="@font/aref_ruqaa"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnFbLogIn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_bg"
+        android:text="Login with Facebook"
+        android:fontFamily="@font/aref_ruqaa"/>
+
+    <Button
+        android:id="@+id/btnGGSignIn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_bg"
+        android:text="Sign in with Google"
+        android:fontFamily="@font/aref_ruqaa"/>
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_bg"
+        android:text="Logout"
+        android:fontFamily="@font/aref_ruqaa"/>
+
+
+</LinearLayout>

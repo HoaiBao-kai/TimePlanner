@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".NewAlarmActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_margin="10dp">
+            <EditText
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:hint="Input title"
+                android:id="@+id/edtTitle"/>
+        </TableRow>
+        <TableRow
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:text="Time"/>
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:layout_weight="4"
+                android:hint="Choose time"
+                android:id="@+id/tvTime"/>
+        </TableRow>
+        <TableRow
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:text="Date"/>
+            <TextView
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:hint="Choose date"
+                android:id="@+id/tvDate"/>
+        </TableRow>
+        <TableRow
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:text="Detail"/>
+            <EditText
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:hint=""
+                android:id="@+id/edtDetail"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">N15_TimePlanner</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="google">Google</string>
+    <string name="facebook_app_id">433804531732400</string>
+    <string name="fb_login_protocol_scheme">fb433804531732400</string>
+
+    <string name="web_client_id">xxxxxxxx..place your web client id here</string>
+
+
+</resources>
